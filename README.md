@@ -1,19 +1,15 @@
-# 🎈 Blank app template
+# ClearWave
 
-A simple Streamlit app template for you to modify!
+A simple Streamlit web app for speech enhancement.
 
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://blank-app-template.streamlit.app/)
+## Features
+- Upload `.wav` audio files
+- Process audio instantly
+- Preview original and processed audio
+- Download the processed output
 
-### How to run it on your own machine
+## Run locally
 
-1. Install the requirements
-
-   ```
-   $ pip install -r requirements.txt
-   ```
-
-2. Run the app
-
-   ```
-   $ streamlit run streamlit_app.py
-   ```
+```bash
+pip install -r requirements.txt
+streamlit run streamlit_app.py
